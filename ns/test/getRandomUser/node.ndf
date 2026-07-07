@@ -18,7 +18,7 @@
         <record javaclass="com.wm.util.Values">
           <value name="node_type">record</value>
           <value name="node_subtype">unknown</value>
-          <value name="is_public">false</value>
+          <value name="is_public">true</value>
           <value name="field_name">results</value>
           <value name="field_type">string</value>
           <value name="field_dim">0</value>
@@ -32,7 +32,7 @@
     <record name="sig_out" javaclass="com.wm.util.Values">
       <value name="node_type">record</value>
       <value name="node_subtype">unknown</value>
-      <value name="is_public">false</value>
+      <value name="is_public">true</value>
       <value name="field_type">record</value>
       <value name="field_dim">0</value>
       <value name="nillable">true</value>
@@ -42,7 +42,7 @@
         <record javaclass="com.wm.util.Values">
           <value name="node_type">record</value>
           <value name="node_subtype">unknown</value>
-          <value name="is_public">false</value>
+          <value name="is_public">true</value>
           <value name="field_name">status</value>
           <value name="field_type">string</value>
           <value name="field_dim">0</value>
@@ -53,7 +53,7 @@
         <record javaclass="com.wm.util.Values">
           <value name="node_type">record</value>
           <value name="node_subtype">unknown</value>
-          <value name="is_public">false</value>
+          <value name="is_public">true</value>
           <value name="field_name">message</value>
           <value name="field_type">string</value>
           <value name="field_dim">0</value>
@@ -64,7 +64,7 @@
         <record javaclass="com.wm.util.Values">
           <value name="node_type">record</value>
           <value name="node_subtype">unknown</value>
-          <value name="is_public">false</value>
+          <value name="is_public">true</value>
           <value name="field_name">users</value>
           <value name="field_type">record</value>
           <value name="field_dim">1</value>
@@ -76,7 +76,7 @@
             <record javaclass="com.wm.util.Values">
               <value name="node_type">record</value>
               <value name="node_subtype">unknown</value>
-              <value name="is_public">false</value>
+              <value name="is_public">true</value>
               <value name="field_name">name</value>
               <value name="field_type">record</value>
               <value name="field_dim">0</value>
@@ -87,7 +87,7 @@
                 <record javaclass="com.wm.util.Values">
                   <value name="node_type">record</value>
                   <value name="node_subtype">unknown</value>
-                  <value name="is_public">false</value>
+                  <value name="is_public">true</value>
                   <value name="field_name">title</value>
                   <value name="field_type">string</value>
                   <value name="field_dim">0</value>
@@ -98,7 +98,7 @@
                 <record javaclass="com.wm.util.Values">
                   <value name="node_type">record</value>
                   <value name="node_subtype">unknown</value>
-                  <value name="is_public">false</value>
+                  <value name="is_public">true</value>
                   <value name="field_name">first</value>
                   <value name="field_type">string</value>
                   <value name="field_dim">0</value>
@@ -109,7 +109,7 @@
                 <record javaclass="com.wm.util.Values">
                   <value name="node_type">record</value>
                   <value name="node_subtype">unknown</value>
-                  <value name="is_public">false</value>
+                  <value name="is_public">true</value>
                   <value name="field_name">last</value>
                   <value name="field_type">string</value>
                   <value name="field_dim">0</value>
@@ -123,7 +123,7 @@
             <record javaclass="com.wm.util.Values">
               <value name="node_type">record</value>
               <value name="node_subtype">unknown</value>
-              <value name="is_public">false</value>
+              <value name="is_public">true</value>
               <value name="field_name">location</value>
               <value name="field_type">record</value>
               <value name="field_dim">0</value>
@@ -134,7 +134,7 @@
                 <record javaclass="com.wm.util.Values">
                   <value name="node_type">record</value>
                   <value name="node_subtype">unknown</value>
-                  <value name="is_public">false</value>
+                  <value name="is_public">true</value>
                   <value name="field_name">street</value>
                   <value name="field_type">record</value>
                   <value name="field_dim">0</value>
@@ -145,7 +145,7 @@
                     <record javaclass="com.wm.util.Values">
                       <value name="node_type">record</value>
                       <value name="node_subtype">unknown</value>
-                      <value name="is_public">false</value>
+                      <value name="is_public">true</value>
                       <value name="field_name">number</value>
                       <value name="field_type">string</value>
                       <value name="field_dim">0</value>
@@ -156,7 +156,7 @@
                     <record javaclass="com.wm.util.Values">
                       <value name="node_type">record</value>
                       <value name="node_subtype">unknown</value>
-                      <value name="is_public">false</value>
+                      <value name="is_public">true</value>
                       <value name="field_name">name</value>
                       <value name="field_type">string</value>
                       <value name="field_dim">0</value>
@@ -170,7 +170,7 @@
                 <record javaclass="com.wm.util.Values">
                   <value name="node_type">record</value>
                   <value name="node_subtype">unknown</value>
-                  <value name="is_public">false</value>
+                  <value name="is_public">true</value>
                   <value name="field_name">city</value>
                   <value name="field_type">string</value>
                   <value name="field_dim">0</value>
@@ -181,7 +181,7 @@
                 <record javaclass="com.wm.util.Values">
                   <value name="node_type">record</value>
                   <value name="node_subtype">unknown</value>
-                  <value name="is_public">false</value>
+                  <value name="is_public">true</value>
                   <value name="field_name">state</value>
                   <value name="field_type">string</value>
                   <value name="field_dim">0</value>
@@ -192,7 +192,7 @@
                 <record javaclass="com.wm.util.Values">
                   <value name="node_type">record</value>
                   <value name="node_subtype">unknown</value>
-                  <value name="is_public">false</value>
+                  <value name="is_public">true</value>
                   <value name="field_name">country</value>
                   <value name="field_type">string</value>
                   <value name="field_dim">0</value>
@@ -203,7 +203,7 @@
                 <record javaclass="com.wm.util.Values">
                   <value name="node_type">record</value>
                   <value name="node_subtype">unknown</value>
-                  <value name="is_public">false</value>
+                  <value name="is_public">true</value>
                   <value name="field_name">postcode</value>
                   <value name="field_type">string</value>
                   <value name="field_dim">0</value>
@@ -217,7 +217,7 @@
             <record javaclass="com.wm.util.Values">
               <value name="node_type">record</value>
               <value name="node_subtype">unknown</value>
-              <value name="is_public">false</value>
+              <value name="is_public">true</value>
               <value name="field_name">email</value>
               <value name="field_type">string</value>
               <value name="field_dim">0</value>
@@ -228,7 +228,7 @@
             <record javaclass="com.wm.util.Values">
               <value name="node_type">record</value>
               <value name="node_subtype">unknown</value>
-              <value name="is_public">false</value>
+              <value name="is_public">true</value>
               <value name="field_name">phone</value>
               <value name="field_type">string</value>
               <value name="field_dim">0</value>
@@ -239,7 +239,7 @@
             <record javaclass="com.wm.util.Values">
               <value name="node_type">record</value>
               <value name="node_subtype">unknown</value>
-              <value name="is_public">false</value>
+              <value name="is_public">true</value>
               <value name="field_name">cell</value>
               <value name="field_type">string</value>
               <value name="field_dim">0</value>
@@ -250,7 +250,7 @@
             <record javaclass="com.wm.util.Values">
               <value name="node_type">record</value>
               <value name="node_subtype">unknown</value>
-              <value name="is_public">false</value>
+              <value name="is_public">true</value>
               <value name="field_name">picture</value>
               <value name="field_type">record</value>
               <value name="field_dim">0</value>
@@ -261,7 +261,7 @@
                 <record javaclass="com.wm.util.Values">
                   <value name="node_type">record</value>
                   <value name="node_subtype">unknown</value>
-                  <value name="is_public">false</value>
+                  <value name="is_public">true</value>
                   <value name="field_name">large</value>
                   <value name="field_type">string</value>
                   <value name="field_dim">0</value>
@@ -272,7 +272,7 @@
                 <record javaclass="com.wm.util.Values">
                   <value name="node_type">record</value>
                   <value name="node_subtype">unknown</value>
-                  <value name="is_public">false</value>
+                  <value name="is_public">true</value>
                   <value name="field_name">medium</value>
                   <value name="field_type">string</value>
                   <value name="field_dim">0</value>
@@ -283,7 +283,7 @@
                 <record javaclass="com.wm.util.Values">
                   <value name="node_type">record</value>
                   <value name="node_subtype">unknown</value>
-                  <value name="is_public">false</value>
+                  <value name="is_public">true</value>
                   <value name="field_name">thumbnail</value>
                   <value name="field_type">string</value>
                   <value name="field_dim">0</value>
@@ -336,5 +336,5 @@
   <value name="pipeline_option">0</value>
   <null name="originURI"/>
   <value name="modifiable">true</value>
-  <value name="is_public">false</value>
+  <value name="is_public">true</value>
 </Values>
